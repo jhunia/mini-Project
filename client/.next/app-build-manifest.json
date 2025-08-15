@@ -21,21 +21,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(dashboard)/tenants/favorites/page.js"
     ],
-    "/(dashboard)/tenants/applications/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(dashboard)/tenants/applications/page.js"
-    ],
-    "/(dashboard)/tenants/residences/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(dashboard)/tenants/residences/page.js"
-    ],
-    "/(dashboard)/tenants/settings/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(dashboard)/tenants/settings/page.css",
-      "static/chunks/app/(dashboard)/tenants/settings/page.js"
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }
