@@ -41,18 +41,18 @@ export enum AmenityEnum {
 }
 
 export const AmenityIcons: Record<AmenityEnum, LucideIcon> = {
-  WasherDryer: Waves,
-  AirConditioning: Thermometer,
-  Dishwasher: Waves,
-  HighSpeedInternet: Wifi,
-  HardwoodFloors: Home,
-  WalkInClosets: Maximize,
-  Microwave: Tv,
-  Refrigerator: Thermometer,
-  Gym: Dumbbell,
-  Parking: Car,
-  PetsAllowed: PawPrint,
-  WiFi: Wifi,
+  [AmenityEnum.WasherDryer]: Waves,
+  [AmenityEnum.AirConditioning]: Thermometer,
+  [AmenityEnum.Dishwasher]: Waves,
+  [AmenityEnum.HighSpeedInternet]: Wifi,
+  [AmenityEnum.HardwoodFloors]: Home,
+  [AmenityEnum.WalkInClosets]: Maximize,
+  [AmenityEnum.Microwave]: Tv,
+  [AmenityEnum.Refrigerator]: Thermometer,
+  [AmenityEnum.Gym]: Dumbbell,
+  [AmenityEnum.Parking]: Car,
+  [AmenityEnum.PetsAllowed]: PawPrint,
+  [AmenityEnum.WiFi]: Wifi,
 };
 
 export enum HighlightEnum {
@@ -74,21 +74,21 @@ export enum HighlightEnum {
 }
 
 export const HighlightIcons: Record<HighlightEnum, LucideIcon> = {
-  HighSpeedInternetAccess: Wifi,
-  WasherDryer: Waves,
-  AirConditioning: Thermometer,
-  Heating: Thermometer,
-  SmokeFree: Cigarette,
-  CableReady: Cable,
-  SatelliteTV: Tv,
-  DoubleVanities: Maximize,
-  TubShower: Bath,
-  Intercom: Phone,
-  SprinklerSystem: Sprout,
-  RecentlyRenovated: Hammer,
-  CloseToTransit: Bus,
-  GreatView: Mountain,
-  QuietNeighborhood: VolumeX,
+  [HighlightEnum.HighSpeedInternetAccess]: Wifi,
+  [HighlightEnum.WasherDryer]: Waves,
+  [HighlightEnum.AirConditioning]: Thermometer,
+  [HighlightEnum.Heating]: Thermometer,
+  [HighlightEnum.SmokeFree]: Cigarette,
+  [HighlightEnum.CableReady]: Cable,
+  [HighlightEnum.SatelliteTV]: Tv,
+  [HighlightEnum.DoubleVanities]: Maximize,
+  [HighlightEnum.TubShower]: Bath,
+  [HighlightEnum.Intercom]: Phone,
+  [HighlightEnum.SprinklerSystem]: Sprout,
+  [HighlightEnum.RecentlyRenovated]: Hammer,
+  [HighlightEnum.CloseToTransit]: Bus,
+  [HighlightEnum.GreatView]: Mountain,
+  [HighlightEnum.QuietNeighborhood]: VolumeX,
 };
 
 export enum PropertyTypeEnum {
@@ -102,13 +102,13 @@ export enum PropertyTypeEnum {
 }
 
 export const PropertyTypeIcons: Record<PropertyTypeEnum, LucideIcon> = {
-  Rooms: Home,
-  Tinyhouse: Warehouse,
-  Apartment: Building,
-  Villa: Castle,
-  Townhouse: Home,
-  Cottage: Trees,
-  Land: LandPlot,
+  [PropertyTypeEnum.Rooms]: Home,
+  [PropertyTypeEnum.Tinyhouse]: Warehouse,
+  [PropertyTypeEnum.Apartment]: Building,
+  [PropertyTypeEnum.Villa]: Castle,
+  [PropertyTypeEnum.Townhouse]: Home,
+  [PropertyTypeEnum.Cottage]: Trees,
+  [PropertyTypeEnum.Land]: LandPlot,
 };
 
 // Add this constant at the end of the file

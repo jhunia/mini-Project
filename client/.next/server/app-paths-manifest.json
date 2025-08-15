@@ -1,9 +1,7 @@
 {
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
-  "/(dashboard)/tenants/favorites/page": "app/(dashboard)/tenants/favorites/page.js",
   "/(dashboard)/tenants/settings/page": "app/(dashboard)/tenants/settings/page.js",
-  "/(dashboard)/tenants/residences/page": "app/(dashboard)/tenants/residences/page.js",
+  "/(dashboard)/tenants/favorites/page": "app/(dashboard)/tenants/favorites/page.js",
   "/(dashboard)/tenants/applications/page": "app/(dashboard)/tenants/applications/page.js"
 }

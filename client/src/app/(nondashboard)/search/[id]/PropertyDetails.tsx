@@ -24,7 +24,7 @@ const PropertyDetails = ({ propertyId }: PropertyDetailsProps) => {
         <h2 className="text-xl font-semibold my-3">Property Amenities</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {property.amenities.map((amenity: AmenityEnum) => {
-            const Icon = AmenityIcons[amenity as AmenityEnum] || HelpCircle;
+            const Icon = AmenityIcons[amenity as keyof typeof AmenityIcons] || HelpCircle;
             return (
               <div
                 key={amenity}
@@ -48,7 +48,7 @@ const PropertyDetails = ({ propertyId }: PropertyDetailsProps) => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-4 w-full">
           {property.highlights.map((highlight: HighlightEnum) => {
             const Icon =
-              HighlightIcons[highlight as HighlightEnum] || HelpCircle;
+              HighlightIcons[highlight as keyof typeof HighlightIcons] || HelpCircle;
             return (
               <div
                 key={highlight}
